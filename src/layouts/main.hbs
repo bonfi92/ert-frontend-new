@@ -1,0 +1,15 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>{{title}}</title>
+    <link rel="stylesheet" href="/src/styles/main.scss">
+</head>
+<body>
+{{> "components/header.hbs" }}
+<h1>{{title}}</h1>
+{{> @partial-block }}
+{{> "components/footer.hbs"}}
+<script type="module" src="/src/main.ts"></script>
+</body>
+</html>
