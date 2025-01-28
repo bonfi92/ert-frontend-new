@@ -11,7 +11,10 @@ export default defineConfig({
       root: './src',
     })
   ],
+  build: {
+    cssCodeSplit: false,
+  },
   css: {
-    devSourcemap: true
+    devSourcemap: true,
   }
 })
