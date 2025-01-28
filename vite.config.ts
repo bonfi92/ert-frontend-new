@@ -7,7 +7,9 @@ import {defineConfig} from "vite"
 export default defineConfig({
   plugins: [
     vituum(),
-    handlebars()
+    handlebars({
+      root: './src',
+    })
   ],
   css: {
     devSourcemap: true
